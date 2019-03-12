@@ -1,0 +1,47 @@
+# Logging levels
+logging:
+  file: server.log
+  level:
+    com.gloic.dazsorter: DEBUG
+
+configuration:
+  workingFolder: C:\temp\daz
+  sevenZipPath: C:\Program Files\7-Zip
+  autoTrashExtensions:
+    - png
+    - jpg
+    - txt
+    - mtl
+    - obj
+    - txt
+  autoDeleteFilenames:
+    - DS_Store
+    - .DS_Store
+    - ._.DS_Store
+  autoDeleteFolders:
+    - __MACOSX
+  libraryPossiblesFolders:
+    - Camera Presets
+    - Data
+    - Documentation
+    - Documentations
+    - Environnements
+    - Light Preset
+    - Lights
+    - People
+    - Props
+    - ReadMe's
+    - ReadMe
+    - Render Presets
+    - Runtime
+    - Scene Builder
+    - Scenes
+    - Scripts
+    - Shader Presets
+    - Shaders
+    - Vehicles
+  poserPossiblesFolders:
+    - Support
+    - Textures
+    - Libraries
+    - Geometries
