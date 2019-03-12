@@ -115,7 +115,7 @@ public class DazSorter {
 
         try {
             String destination = configurationService.getUnsortedFolder() + File.separator + FilenameUtils.removeExtension(archive.getName());
-            Process process = new ProcessBuilder(configurationService.getSevenZipExec(), "x", "\"" + archive.getAbsolutePath() + "\"", "-o\"" + destination + "\"", "-y").start();
+            Process process = new ProcessBuilder(configurationService.getSevenZipExec(), "x", archive.getAbsolutePath(), "-o" + destination, "-y").start();
             int exitValue = process.waitFor();
             if (exitValue != 0) {
                 throw new IOException("Extraction failed");

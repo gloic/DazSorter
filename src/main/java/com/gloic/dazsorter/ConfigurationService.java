@@ -100,7 +100,7 @@ public class ConfigurationService {
         File sevenZipExecutable = new File(getSevenZipExec());
         if (!sevenZipExecutable.exists() || !sevenZipExecutable.canExecute()) {
             canExtract = false;
-            LOGGER.warn("7z executable cannot be found or is not executable, not decompression will be done");
+            LOGGER.warn("7z executable cannot be found or is not executable, no decompression will be done");
         }
     }
 
