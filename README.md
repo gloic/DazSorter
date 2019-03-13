@@ -1,5 +1,6 @@
 # DazSorter
 This project permits to sort and extract freebies downloaded for DazStudio.
+Download the latest release here : https://github.com/gloic/DazSorter/releases
 
 The differents files and folders are moved into their dedicated destinations :
 - IM Files
